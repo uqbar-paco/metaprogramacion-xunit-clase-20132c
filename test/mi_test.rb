@@ -13,3 +13,9 @@ class OtroTest
     Assert.assert_true false
   end
 end
+
+class TestQueTiraError
+  def test_tira_error
+    1*nil
+  end
+end
